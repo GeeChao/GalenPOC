@@ -1,0 +1,6 @@
+@objects
+Login-UserName	xpath	.//*[@id='login-email']
+Login-Password	xpath	.//*[@id='login-password']
+Login-Submit	xpath	.//*[@id='login-submit']
+LinkedinLogo	xpath	//img[@class='lazy-loaded']
+ForgetPassword	xpath	//a[@class='link-forgot-password']	

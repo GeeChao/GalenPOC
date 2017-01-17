@@ -1,0 +1,40 @@
+@objects
+Login-UserName	xpath	.//*[@id='login-email']
+Login-Password	xpath	.//*[@id='login-password']
+Login-Submit	xpath	.//*[@id='login-submit']
+LinkedinLogo	xpath	//img[@class='lazy-loaded']
+ForgetPassword	xpath	//a[@class='link-forgot-password']	
+
+
+= Section Begins =
+	@on desktop,tab
+		Login-UserName:
+			visible
+			width 30px
+			height 50px
+
+	@on desktop,tab
+		Login-Password:
+			visible
+			width 30px
+			height 50px
+
+	@on desktop,tab
+		Login-Submit:
+			visible
+			width 30px
+			height 50px
+
+	@on desktop,tab
+		LinkedinLogo:
+			visible
+			width 30px
+			height 50px
+
+	@on desktop,tab
+		ForgetPassword:
+			visible
+			width 30px
+			height 50px
+				
+
